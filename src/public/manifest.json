@@ -1,0 +1,53 @@
+{
+  "id": "./",
+  "name": "Story Map",
+  "short_name": "Story Map",
+  "description": "Bagikan dan jelajahi cerita beserta lokasinya di peta digital, bahkan saat offline.",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#1d4ed8",
+  "background_color": "#ffffff",
+  "categories": ["social", "travel"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Beranda Story Map: daftar cerita dan peta di layar lebar"
+    },
+    {
+      "src": "screenshots/narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Beranda Story Map di perangkat mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Cerita",
+      "short_name": "Tambah",
+      "description": "Bagikan cerita baru beserta lokasinya",
+      "url": "./#/add",
+      "icons": [{ "src": "icons/shortcut-add.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Cerita Tersimpan",
+      "short_name": "Tersimpan",
+      "description": "Lihat cerita yang disimpan di perangkat",
+      "url": "./#/saved",
+      "icons": [{ "src": "icons/shortcut-saved.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ]
+}

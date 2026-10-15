@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1d4ed8" />
+    <meta name="description" content="Bagikan dan jelajahi cerita beserta lokasinya di peta digital." />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+    <title>Story Map</title>
+  </head>
+  <body>
+    <a href="#main-content" id="skip-link" class="skip-link">Lewati ke konten utama</a>
+
+    <p id="offline-indicator" class="offline-indicator" role="status" hidden>
+      Anda sedang offline. Data yang pernah dimuat tetap tersedia.
+    </p>
+
+    <header>
+      <div class="main-header container">
+        <a class="brand-name" href="#/">Story Map</a>
+
+        <nav id="navigation-drawer" class="navigation-drawer" aria-label="Navigasi utama">
+          <ul id="nav-list" class="nav-list"></ul>
+        </nav>
+
+        <button
+          id="drawer-button"
+          class="drawer-button"
+          type="button"
+          aria-label="Menu navigasi"
+          aria-expanded="false"
+          aria-controls="navigation-drawer"
+        >☰</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Story Map</p>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
